@@ -121,9 +121,15 @@ input[type="submit"]:hover {
 }
 
 .logo {
-  height: 120px;
+  height: 130px;
   width: auto;
   float: left;
+  display: block;
+}
+
+.logo_black {
+  float: left;
+  display: none;
 }
 
 .sticky-nav {
@@ -136,7 +142,8 @@ input[type="submit"]:hover {
   z-index: 1000;
 }
 
-.sticky-nav .logo {
+.sticky-nav .logo,
+.logo_black {
   height: 60px;
   margin-top: 3px;
 }

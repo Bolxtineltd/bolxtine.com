@@ -1,8 +1,15 @@
 $(document).ready(function () {
   //Addinf sticky nav
   $(".js--about-section").waypoint(function (direction) {
-    if (direction == "down") $("nav").addClass("sticky-nav");
-    else $("nav").removeClass("sticky-nav");
+    if (direction == "down") {
+      $(".logo").css("display", "none");
+      $(".logo_black").css("display", "block");
+      $("nav").addClass("sticky-nav");
+    } else {
+      $(".logo").css("display", "block");
+      $(".logo_black").css("display", "none");
+      $("nav").removeClass("sticky-nav");
+    }
   });
 
   //animate about us image
