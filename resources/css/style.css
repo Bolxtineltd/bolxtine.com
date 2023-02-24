@@ -139,8 +139,14 @@ input[type="submit"]:hover {
   transition: border-bottom 0.3s;
 }
 
+.main-nav li a.nav-active {
+  border-bottom: 2px solid #ff914d;
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+}
+
 .logo {
-  height: 130px;
+  height: 120px;
   width: auto;
   float: left;
   display: block;
