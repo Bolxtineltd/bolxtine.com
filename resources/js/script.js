@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  //Addinf sticky nav
+  //Add sticky nav
   $(".js--about-section").waypoint(function (direction) {
     if (direction == "down") {
       $(".logo").attr("src", "resources/images/logo_black.png");
