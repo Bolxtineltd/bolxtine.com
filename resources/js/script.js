@@ -2,12 +2,10 @@ $(document).ready(function () {
   //Addinf sticky nav
   $(".js--about-section").waypoint(function (direction) {
     if (direction == "down") {
-      $(".logo").css("display", "none");
-      $(".logo_black").css("display", "block");
+      $(".logo").attr("src", "resources/images/logo_black.png");
       $("nav").addClass("sticky-nav");
     } else {
-      $(".logo").css("display", "block");
-      $(".logo_black").css("display", "none");
+      $(".logo").attr("src", "resources/images/logo.png");
       $("nav").removeClass("sticky-nav");
     }
   });
