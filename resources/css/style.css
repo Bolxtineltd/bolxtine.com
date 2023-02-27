@@ -50,7 +50,7 @@ header {
       rgb(0, 0, 0, 0.8)
     ),
     url(img/new_header.jpg);
-  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.1)),
     url(img/header1.jpg);
   background-size: cover;
   background-position: center;
@@ -362,11 +362,11 @@ h2 {
 
 .testimonial-section {
   background-image: -webkit-linear-gradient(
-      rgb(0, 0, 0, 0.8),
-      rgb(0, 0, 0, 0.8)
+      rgb(0, 74, 173, 0.8),
+      rgb(0, 74, 173, 0.8)
     ),
     url(img/header-bg.jpg);
-  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 74, 173, 0.8), rgb(0, 74, 173, 0.8)),
     url(img/header-bg.jpg);
   text-align: center;
   color: #fff;
