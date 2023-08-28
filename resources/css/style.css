@@ -207,12 +207,34 @@ input[type="submit"]:hover {
   font-weight: 500;
 }
 
+.policy-title {
+  color: #000;
+  margin-bottom: 15px;
+  font-size: 120%;
+  font-weight: 500;
+}
+
 .about-heading span {
   color: #ff914d;
 }
 
 .about-para {
   color: grey;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.policy-para {
+  color: grey;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.policy-items {
+  color: grey;
+  margin-left: 20px;
   margin-bottom: 40px;
   letter-spacing: 1px;
   line-height: 1.5;
